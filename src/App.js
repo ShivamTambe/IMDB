@@ -8,7 +8,6 @@ import Movie from './pages/movieDetail/movie';
 function App() {
   return (
     <div className="App">
-        <h1>Hello</h1>
         <Router>
           <Header />
             <Routes>
