@@ -13,6 +13,8 @@ const Header = () => {
     function handleClick2(){
         console.log("jdjjdjjfjfjd");
         // document.getElementsByClassName("headerRight")[0].style.display="none";
+
+        
         document.getElementsByClassName("headerRight")[0].style.translate="100%";
     }
     return (
