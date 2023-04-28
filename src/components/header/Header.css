@@ -50,6 +50,7 @@ a > span:hover {
     position: absolute;
     top: 6px;
     width: 100%;
+    
     margin: 0px -2.5rem;
     padding-top: 20px;
     background-color: black;
