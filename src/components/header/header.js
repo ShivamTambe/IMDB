@@ -30,6 +30,7 @@ const Header = () => {
                 <div></div>
                 <div></div>
             </div>
+            
             <div className="headerRight">
                 <div className="wrong" onClick={handleClick2}>
                     <img className="header__icon" src="https://tse1.mm.bing.net/th?id=OIP.NoNgUKIMoR4MV_B3TUOT1gHaHa&pid=Api&P=0" alt="load"/>
