@@ -24,6 +24,7 @@ const Header = () => {
                 <Link to="/movies/popular" style={{textDecoration: "none"}}><span className="navbars">Popular</span></Link>
                 <Link to="/movies/top_rated" style={{textDecoration: "none"}}><span className="navbars">Top Rated</span></Link>
                 <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span className="navbars">Upcoming</span></Link>
+                
             </div>
             <div className="ham" onClick={handleClick}>
                 <div></div>
