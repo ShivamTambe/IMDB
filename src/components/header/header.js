@@ -13,8 +13,6 @@ const Header = () => {
     function handleClick2(){
         console.log("jdjjdjjfjfjd");
         // document.getElementsByClassName("headerRight")[0].style.display="none";
-
-        
         document.getElementsByClassName("headerRight")[0].style.translate="100%";
     }
     return (
@@ -24,7 +22,6 @@ const Header = () => {
                 <Link to="/movies/popular" style={{textDecoration: "none"}}><span className="navbars">Popular</span></Link>
                 <Link to="/movies/top_rated" style={{textDecoration: "none"}}><span className="navbars">Top Rated</span></Link>
                 <Link to="/movies/upcoming" style={{textDecoration: "none"}}><span className="navbars">Upcoming</span></Link>
-                
             </div>
             <div className="ham" onClick={handleClick}>
                 <div></div>
