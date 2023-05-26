@@ -86,8 +86,6 @@
         display: none;
     }
   }
-
-  
   @media screen and (max-width:500px){
     .posterImage {
         height: 256px;
